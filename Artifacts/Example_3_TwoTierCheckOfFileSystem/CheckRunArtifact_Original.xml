@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckRunArtifact>
+  <CheckRunData>
+    <DataElement Name="PathAndFileToRunner" Value="CheckProcess.exe" />
+    <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckRunGuid" Value="e79ba17d-53fd-41f5-b4f5-ffeebf912748" />
+    <DataElement Name="CheckMethodName" Value="ExampleOuterCheck" />
+    <DataElement Name="CheckMethodGuid" Value="C12DDDFF-B4FA-43C5-B664-5060849E5193" />
+    <DataElement Name="SemaphoreTimeoutMilliseconds" Value="30000" />
+    <DataElement Name="CheckLibraryAssembly" Value="CheckMethods.dll" />
+    <DataElement Name="CheckBeginTime" Value="2016-12-12T21:11:59.4779090Z" />
+    <DataElement Name="CheckEndTime" Value="2016-12-12T21:11:59.6854398Z" />
+    <DataElement Name="Reserved_SubCheckMap" Value="1" />
+    <DataElement Name="CheckObjectStorageKey" Value="Global\e79ba17d53fd41f5b4f5ffeebf912748CLIENTMACHINE11CLIENTMACHINE1c12dddffb4fa43c5b6645060849e5193.CLIENTMACHINE1.CLIENTMACHINE1" />
+    <SubCheckData>
+      <DataElement Name="CheckMethodName" Value="ExampleInnerCheck" />
+      <DataElement Name="CheckMethodGuid" Value="88180CD8-445C-4F26-8949-B3B731F610B5" />
+      <DataElement Name="Reserved_SubCheckMap" Value="11" />
+    </SubCheckData>
+  </CheckRunData>
+  <CheckCustomData>
+    <DataElement Name="TestFileNameAndPath" Value="\\FileServer\Shared Folders\MetaAutomationCheck\TestFile.txt" />
+    <DataElement Name="RandomString" Value="npmtmxhohp" />
+  </CheckCustomData>
+  <CheckFailData />
+  <CompleteCheckStepInfo>
+    <CheckStep Name="Method ExampleOuterCheck" msTimeLimit="10000" msTimeElapsed="203" Value="Pass">
+      <CheckStep Name="Create and write to the file" msTimeLimit="8000" msTimeElapsed="200" Value="Pass">
+        <CheckStep Name="Create the file." msTimeLimit="100" msTimeElapsed="15" Value="Pass">
+          <CheckStep Name="Get the filename." msTimeLimit="500" msTimeElapsed="1" Value="Pass" />
+          <CheckStep Name="Report the current user identity" msTimeLimit="100" msTimeElapsed="0" Value="Pass">
+            <DataElement Name="Current user" Value="user" />
+          </CheckStep>
+          <CheckStep Name="Get the stream to write to the file." msTimeLimit="500" msTimeElapsed="10" Value="Pass" />
+        </CheckStep>
+        <CheckStep Name="Create and record data for the file" msTimeLimit="2000" msTimeElapsed="0" Value="Pass" />
+        <CheckStep Name="Write and close the file" msTimeLimit="4000" msTimeElapsed="9" Value="Pass">
+          <DataElement Name="Data written to file" Value="npmtmxhohp" />
+        </CheckStep>
+        <CheckStep Name="Verify file contents from a different machine and/or process" msTimeLimit="5000" msTimeElapsed="173" Value="Pass">
+          <CheckStep Name="Method ExampleInnerCheck" msTimeLimit="800" msTimeElapsed="12" Value="Pass">
+            <CheckStep Name="Read the file and verify the contents." msTimeLimit="500" msTimeElapsed="9" Value="Pass">
+              <CheckStep Name="Report the current user identity" msTimeLimit="100" msTimeElapsed="0" Value="Pass">
+                <DataElement Name="Current user" Value="user" />
+              </CheckStep>
+              <CheckStep Name="Open the file for reading." msTimeLimit="100" msTimeElapsed="4" Value="Pass" />
+              <CheckStep Name="Read the file." msTimeLimit="100" msTimeElapsed="0" Value="Pass" />
+              <CheckStep Name="Verify file contents." msTimeLimit="100" msTimeElapsed="1" Value="Pass">
+                <DataElement Name="Actual data read from file" Value="npmtmxhohp" />
+                <DataElement Name="Expected data in file" Value="npmtmxhohp" />
+              </CheckStep>
+            </CheckStep>
+          </CheckStep>
+        </CheckStep>
+      </CheckStep>
+    </CheckStep>
+  </CompleteCheckStepInfo>
+</CheckRunArtifact>

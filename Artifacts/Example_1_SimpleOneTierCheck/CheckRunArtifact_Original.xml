@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckRunArtifact>
+  <CheckRunData>
+    <DataElement Name="PathAndFileToRunner" Value="CheckProcess.exe" />
+    <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckRunGuid" Value="a16e5136-6d8b-41cf-800f-612feee6beb1" />
+    <DataElement Name="CheckMethodName" Value="OneTierExampleCheck" />
+    <DataElement Name="CheckMethodGuid" Value="B650890A-20D1-4D84-B067-7535F1005195" />
+    <DataElement Name="SemaphoreTimeoutMilliseconds" Value="30000" />
+    <DataElement Name="CheckLibraryAssembly" Value="CheckMethods.dll" />
+    <DataElement Name="CheckBeginTime" Value="2016-12-12T21:07:25.2083465Z" />
+    <DataElement Name="CheckEndTime" Value="2016-12-12T21:07:25.3263619Z" />
+    <DataElement Name="Reserved_SubCheckMap" Value="1" />
+    <DataElement Name="CheckObjectStorageKey" Value="Global\a16e51366d8b41cf800f612feee6beb1CLIENTMACHINE11CLIENTMACHINE1b650890a20d14d84b0677535f1005195.CLIENTMACHINE1.CLIENTMACHINE1" />
+  </CheckRunData>
+  <CheckCustomData />
+  <CheckFailData />
+  <CompleteCheckStepInfo>
+    <CheckStep Name="Method OneTierExampleCheck" msTimeLimit="800" msTimeElapsed="113" Value="Pass">
+      <CheckStep Name="Step 1." msTimeLimit="500" msTimeElapsed="51" Value="Pass" />
+      <CheckStep Name="Step 2." msTimeLimit="500" msTimeElapsed="55" Value="Pass">
+        <CheckStep Name="Step 3." msTimeLimit="100" msTimeElapsed="55" Value="Pass" />
+      </CheckStep>
+    </CheckStep>
+  </CompleteCheckStepInfo>
+</CheckRunArtifact>
