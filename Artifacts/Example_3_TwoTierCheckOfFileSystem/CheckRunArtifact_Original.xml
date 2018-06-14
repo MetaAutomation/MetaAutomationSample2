@@ -20,7 +20,7 @@
     </SubCheckData>
   </CheckRunData>
   <CheckCustomData>
-    <DataElement Name="TestFileNameAndPath" Value="\\FileServer\Shared Folders\MetaAutomationCheck\TestFile.txt" />
+    <DataElement Name="TestFileNameAndPath" Value="\\EDIT_FILEPATH_OR_SHARE\TestFile.txt" />
     <DataElement Name="RandomString" Value="npmtmxhohp" />
   </CheckCustomData>
   <CheckFailData />
