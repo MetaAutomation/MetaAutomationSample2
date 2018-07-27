@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLauncher", "CheckLauncher\CheckLauncher.csproj", "{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}"
 EndProject
@@ -62,8 +62,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_6_RollingFailureInd
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76E2723B-1F68-4225-A8A2-F2075FD4655E}"
 	ProjectSection(SolutionItems) = preProject
-		MetaAutomation Sample2 Installation Instructions.docx = MetaAutomation Sample2 Installation Instructions.docx
+		MetaAutomation Sample2 Installation Instructions.html = MetaAutomation Sample2 Installation Instructions.html
 		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{F26A7568-FC77-432A-8387-5014950EE58A}"
+	ProjectSection(SolutionItems) = preProject
+		files\image001.jpg = files\image001.jpg
 	EndProjectSection
 EndProject
 Global
@@ -116,5 +121,9 @@ Global
 		{808AF3C7-0710-415F-849C-4920918EF6FC} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
 		{47ED7B5A-B9B2-4441-9B45-F14940BC8D71} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
 		{AA8430B9-CB80-40AF-A416-F8996EED148C} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{F26A7568-FC77-432A-8387-5014950EE58A} = {76E2723B-1F68-4225-A8A2-F2075FD4655E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283A13BD-B938-46AD-9057-DB68E4670BE0}
 	EndGlobalSection
 EndGlobal
